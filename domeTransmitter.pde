@@ -9,18 +9,20 @@ import java.io.*;
 public Routine[] enabledRoutines = new Routine[] {
     //new Configulate(),
     //new TestPattern(false),
-    new Waves(),
-    new WarpSpeedMrSulu(),
-    new Warp(),
-    new TrialOfZod(),
-    new Seizure(),
-    new RainbowColors(),
-    new RGBRoutine(),
-    //new DropTheBomb(),
-    new ColorDrop(),
-    new Chase(),
-    new Bursts(),
-    new TestPattern(true)
+//    new Waves(),
+//    new WarpSpeedMrSulu(),
+//    new Warp(),
+//    new TrialOfZod(),
+//    new Seizure(),
+//    new RainbowColors(),
+//    new RGBRoutine(),
+//    //new DropTheBomb(),
+//    new ColorDrop(),
+//    new Chase(),
+//    new Bursts(),
+//    new TestPattern(true)
+new ShootingStars(),
+new SeasonsChange()
 };
  
 PGraphics draw;
